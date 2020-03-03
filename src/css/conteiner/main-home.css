@@ -1,0 +1,9 @@
+.home{
+    height:auto; 
+    display:block;
+    margin: auto;
+    padding-top: 70px;	
+} 
+#home{
+    background-color: var(--color-second);
+} 

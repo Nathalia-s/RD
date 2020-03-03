@@ -1,0 +1,47 @@
+   .main-menu{
+    position: fixed;   
+    width: 70%;
+    height: 40px;
+    background-color: var(--color-base);
+     margin-top: 5px;
+    }
+    
+    ul{	
+    list-style: none;
+    float: left;
+    position: relative;
+    }
+
+    .main-menu ul li{
+    float:left;
+    width: 150px;
+    }
+
+    .main-menu a{
+    text-decoration: none;
+    padding: 25px;
+    background-color: var(--color-base);
+    color: var(--color-primary);
+    display: block;
+    text-align: center;
+    font-family: 'Roboto';
+
+    }
+    .main-menu ul ul{
+        position: absolute;
+        visibility: hidden;
+        
+    }
+    .main-menu ul ul li{
+       float: none;
+    }
+
+    .main-menu ul li:hover ul{
+        visibility: visible;
+    }
+
+    .main-menu li a:hover {
+    background-color: var(--color-third);
+    }
+      
+    
