@@ -1,0 +1,47 @@
+div{
+    width: auto;
+    height: auto;
+    
+}
+#aulas{
+    padding-top: 70px;
+    background-color: lightseagreen;
+}
+.horario{
+    float: right;
+    padding: 50px;
+}
+.idades{
+    padding: 50px;
+}
+#alternativas{
+      background-color: lightsalmon;
+      padding: 30px;
+}
+.maiquel{
+    float: right;
+    margin-right: 50px; 
+}
+
+#ballet{
+    background-color: indianred;
+    padding: 50px;
+}
+.ponta{
+     float: right;
+}
+.alongamento{
+    float: right;
+}
+#kpop{
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+
+
+
+
+

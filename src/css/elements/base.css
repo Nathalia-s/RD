@@ -1,9 +1,13 @@
-*{
-    margin: 0px;
-    margin-right: 0px;
-    
- }
-  body{
-  background-color: var(--color-third);
- 
- }
+body{
+   background-color: #F8F8FF;
+}
+
+.logo{
+   padding: 9px;
+   border-radius: 20%;
+}
+
+p{
+   text-align: center;
+   padding: 20px;
+}

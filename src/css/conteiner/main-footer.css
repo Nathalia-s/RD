@@ -1,9 +1,9 @@
 footer{
-    color: var(--color-primary);
-    width: 100%;
+    color: gray;
+    width: auto;
     height: 250px;
     padding: 30px;
-    background-color: var(--color-base);
+    background-color: black;
     font-size: 15px;
     font-family: 'Roboto';
 }
