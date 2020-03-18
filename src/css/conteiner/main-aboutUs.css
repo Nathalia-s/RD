@@ -3,6 +3,6 @@
     height: 550px;
     background-image: url("/src/imagens/fundo-apresentação.jpg");
     background-size: cover;
-    color: cornsilk;
+    color: var(--color-primary);
 }
 

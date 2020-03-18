@@ -1,17 +1,18 @@
 #depositions{
     width: auto;
     height: auto;
-    background-color: burlywood;
+    background-color:  var(--color-third);
 }
 
 .depositions-item{
 
-    background-color: coral;
+    background-color: var(--color-third);
+    color: var(--color-base);
     width: 300px;
     height: 300px;
     display: inline-block;
     border-radius: 20px;
     margin: 70px;
-    box-shadow: 7px 7px black;
+    box-shadow: 3px 3px 5px 5px  var(--color-base);
 
 }

@@ -3,11 +3,11 @@
    float: right;
    width: auto;
    height: 75px;
-   background-color:black;
+   background-color: var(--color-base);
    text-align: center;
 }
 .main-menu li{
-   background-color:black;
+   background-color: var(--color-base);
    width: 100px;
    display: inline-block;
    padding: 20px;
@@ -17,10 +17,10 @@
 }
 .main-menu a{
    text-decoration: none;
-   color: gray;
+   color: var(--color-primary);
 }
  .main-menu ul :hover {
-       background-color: cornsilk;
+       background-color: var(--color-second);
  }
 
  

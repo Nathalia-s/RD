@@ -1,38 +1,69 @@
 div{
     width: auto;
     height: auto;
+    padding: 30px;
     
 }
+figure{
+    padding: 5px;
+    margin: 20px;
+}
+
 #aulas{
-    padding-top: 70px;
-    background-color: lightseagreen;
+    padding-top: 90px;
+    background-color: var(--color-primary);
 }
 .horario{
-    float: right;
-    padding: 50px;
+    float: right; 
 }
 .idades{
-    padding: 50px;
+      width: 410px;
 }
 #alternativas{
-      background-color: lightsalmon;
+      background-color: var(--color-second);
       padding: 30px;
 }
 .maiquel{
-    float: right;
-    margin-right: 50px; 
+         background-color: var(--color-base);
+         width: 400px;
+         float: right;
 }
-
+.vilma{
+    width: 300px;
+    background-color: var(--color-base);
+    text-align: right;
+    float: right;
+}
+.da{
+    background-color: var(--color-base);
+    width: 400px;
+}
+#stilleto{
+    background-color: var(--color-primary);
+    text-align: center;
+}
+.stilleto{
+    width: 300px;
+}
 #ballet{
-    background-color: indianred;
-    padding: 50px;
+    background-color: var(--color-second);
 }
 .ponta{
-     float: right;
-}
-.alongamento{
     float: right;
+    background-color: var(--color-base);
+    width: 300px;
 }
+.ballet{
+       text-align: center;
+       background-color: var(--color-base);
+       width: 720px;
+       
+}
+.baby{
+    background-color: var(--color-base);
+    width: 520px;
+}
+
 #kpop{
     height: 300px;
     text-align: center;
