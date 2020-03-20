@@ -2,11 +2,6 @@ body{
    background-color: #F8F8FF;
 }
 
-.logo{
-   padding: 9px;
-   border-radius: 20%;
-}
-
 p{
    text-align: center;
    padding: 20px;
@@ -15,4 +10,6 @@ h2{
    text-align: center;
    padding-top: 20px;
    font-size: 20px;
-}
+}  
+
+

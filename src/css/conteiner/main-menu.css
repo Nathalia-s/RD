@@ -1,6 +1,5 @@
 
 .main-menu ul{
-   float: right;
    width: auto;
    height: 75px;
    background-color: var(--color-base);
@@ -21,6 +20,42 @@
 }
  .main-menu ul :hover {
        background-color: var(--color-second);
+ }
+
+   label{
+     font-size: 26px;
+     padding: 30px;
+     display: none;
+     background-color: var(--color-base);
+     color: seashell;
+   
+   }
+   #bt_menu{
+     display: none;
+   }
+  
+   @media only screen and  (max-width: 1024px){
+    
+     label{
+       display: block;
+       cursor: pointer;
+     }
+
+   .main-menu li {
+      width: 100%;
+      display: block;
+      margin: 0;
+   }
+   .main-menu{
+      display: none;
+   }
+   .main-menu a{
+      display: block;
+   }
+   #bt_menu:checked + .main-menu{
+       display: block;
+   }
+   
  }
 
  

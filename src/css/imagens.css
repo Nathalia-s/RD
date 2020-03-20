@@ -1,7 +1,7 @@
 div{
     width: auto;
     height: auto;
-    padding: 30px;
+    padding: 10px;
     
 }
 figure{
@@ -17,11 +17,11 @@ figure{
     float: right; 
 }
 .idades{
-      width: 410px;
+      width: 400px;
 }
 #alternativas{
       background-color: var(--color-second);
-      padding: 30px;
+      height: 500px;
 }
 .maiquel{
          background-color: var(--color-base);
@@ -37,13 +37,17 @@ figure{
 .da{
     background-color: var(--color-base);
     width: 400px;
+
 }
 #stilleto{
     background-color: var(--color-primary);
-    text-align: center;
 }
 .stilleto{
     width: 300px;
+    float: right;
+}
+.stilletoaula {
+     width: 300px;
 }
 #ballet{
     background-color: var(--color-second);
@@ -56,9 +60,10 @@ figure{
 .ballet{
        text-align: center;
        background-color: var(--color-base);
-       width: 720px;
+       width: 600px;
        
 }
+
 .baby{
     background-color: var(--color-base);
     width: 520px;
@@ -70,6 +75,35 @@ figure{
     padding-top: 100px;
     font-weight: bold;
 }
+@media  (max-width: 1050px){
+   
+    #alternativas{
+        height: auto;
+        padding: 0;
+    }
+    figure{
+        margin: 0;
+    }
+    .ponta{
+      float: left;
+    }
+    .maiquel{
+        float: left;
+    }
+    .baby{
+        width: 400px;
+    }
+    .baby2{
+        width: 400px;
+    }
+    .ballet{
+        width: 400px;
+    }
+    .ballet2{
+        width: 400px;
+    }
+}
+
 
 
 
