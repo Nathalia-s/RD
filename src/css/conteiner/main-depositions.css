@@ -1,18 +1,19 @@
 #depositions{
-    width: auto;
+    width: 100%;
     height: auto;
     background-color:  var(--color-third);
+     display: flex;
+    justify-content: space-between;
 }
 
 .depositions-item{
 
-    background-color: var(--color-third);
+   background-color: var(--color-third);
     color: var(--color-base);
     width: 300px;
     height: 300px;
-    display: inline-block;
     border-radius: 20px;
+    box-shadow: 3px 3px  7px  var(--color-base);
     margin: 70px;
-    box-shadow: 3px 3px 5px 5px  var(--color-base);
 
 }

@@ -1,0 +1,30 @@
+#alternativas{
+    background-color: var(--color-second);
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+
+}
+.maiquel{
+   background-color: var(--color-base);
+   width: 400px;
+    height: 300px;   
+}
+.vilma{
+  width: 300px;
+  background-color: var(--color-base);
+
+}
+.da{
+  background-color: var(--color-base);
+  height: 300px;
+}
+@media  (max-width: 1050px){
+    #alternativas{
+        height: auto;
+        padding: 0;
+    }
+    .maiquel{
+        float: left;
+    }
+}

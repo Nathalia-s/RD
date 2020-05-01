@@ -1,0 +1,10 @@
+#aulas{
+    padding-top: 90px;
+   background-color: var(--color-primary);
+}
+.horario{
+    float: right; 
+}
+.idades{
+      width: 400px;
+}

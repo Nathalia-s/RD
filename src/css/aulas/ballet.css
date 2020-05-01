@@ -1,0 +1,36 @@
+#ballet{
+    background-color: var(--color-second); 
+}
+.ponta{
+    float: right;
+    background-color: var(--color-base);
+    width: 300px;
+    height: 350px;
+}
+.ballet{
+       text-align: center;
+       background-color: var(--color-base);
+       width: 600px;   
+}
+.baby{
+    background-color: var(--color-base);
+    width: 520px;
+    height: 400px;
+}
+@media  (max-width: 1050px){
+    .ponta{
+        float: left;
+      } 
+ /*     .baby{
+          width: 400px;
+      }
+      .baby2{
+          width: 400px;
+      }
+      .ballet{
+          width: 400px;
+      }
+      .ballet2{
+          width: 400px;
+      } */
+}
