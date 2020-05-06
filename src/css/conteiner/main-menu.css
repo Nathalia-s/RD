@@ -1,6 +1,5 @@
-
 .main-menu ul{
-   width: auto;
+   width: 99vw;
    height: 75px;
    background-color: var(--color-base);
    text-align: center;
@@ -34,7 +33,7 @@
      display: none;
    }
   
-   @media only screen and  (max-width: 1024px){
+   @media only screen and  (max-width: 1070px){
     
      label{
        display: block;
@@ -42,9 +41,10 @@
      }
 
    .main-menu li {
-      width: 100%;
+      width: 100vw;
       display: block;
       margin: 0;
+     
    }
    .main-menu{
       display: none;

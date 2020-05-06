@@ -1,9 +1,8 @@
 .main-header{
-  width: 100%;
+  width: 99vw;
   height: auto;
   background-color: var(--color-base);
   position: fixed;
-
 }
 
 .logo{
@@ -13,10 +12,3 @@
 
 }
 
-
-@media  (max-width: 1024px){
- .main-header{
-   width: 100%;
-   
- }
-}
