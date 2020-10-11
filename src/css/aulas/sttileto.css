@@ -1,12 +1,13 @@
 #stilleto{
     background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+}
+.stilletoaula{
+    width: 350px;
+    margin: 30px;
 }
 .stilleto{
-    width: 300px;
-    float: right;
-    margin: 50px;
+    margin: 30px;
 }
-.stilletoaula {
-     width: 300px;
-     margin: 50px;
-}
+@media  (max-width: 12489px)

@@ -2,12 +2,11 @@
     background-color: var(--color-second);
     display: flex;
     justify-content: space-between;
-
 }
 
-@media  (max-width: 1190px){
+@media  (max-width: 1248px){
   #alternativas{
-     display: inline-block;
+     display:block;
      
   }
 }

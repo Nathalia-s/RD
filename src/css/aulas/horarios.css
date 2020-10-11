@@ -1,10 +1,10 @@
 #aulas{
    padding-top: 90px;
    background-color: var(--color-primary);
+   display: flex;
+   justify-content: space-between;
 }
-.horario{
-    float: right; 
-}
-@media (max-width: 1163){
-    
+
+@media (max-width: 1168){
+
 }

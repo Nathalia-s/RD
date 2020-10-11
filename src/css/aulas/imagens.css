@@ -18,9 +18,12 @@ img{
     font-weight: bold;
 }
 
-@media  (max-width: 1163px){
+@media  (max-width: 12489px){
     section{
         display: block;
+    }
+    figure{
+
     }
 
 }
