@@ -1,7 +1,7 @@
 #aboutUs{
     width: 99vw;
     height: 550px;
-    background-image: url("/src/imagens/fundo-apresentação.jpg");
+    background-image: url("/imagens/fundo-apresentação.jpg");
   /*  background-size: cover; */
     color: var(--color-primary);
 }
